@@ -10,8 +10,17 @@ Navigation.events().registerAppLaunchedListener(() => {
       stack: {
         children: [{
           component: {
-            name: "Home"
-          }
+            name: "Home",
+            // options: {
+            //   topBar: {
+            //     background: {
+            //       component: {
+            //         name: 'Header'
+            //       }
+            //     }
+            //   }
+            // }
+          },
         }]
       }
     },
