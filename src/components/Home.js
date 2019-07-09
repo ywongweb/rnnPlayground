@@ -27,16 +27,16 @@ class Home extends PureComponent {
           Navigation.push(this.props.componentId, {
             component: {
               name: 'ScreenOne',
-              options: {
-                topBar: {
-                  background: {
-                    color: 'yellow',
-                    component: {
-                      name: 'HeaderTwo'
-                    }
-                  }
-                }
-              }
+              // options: {
+              //   topBar: {
+              //     background: {
+              //       color: 'yellow',
+              //       component: {
+              //         name: 'HeaderTwo'
+              //       }
+              //     }
+              //   }
+              // }
             },
           })
         }} title="gogogoggogo">Go go go</Button>
